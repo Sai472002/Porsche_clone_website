@@ -4,7 +4,7 @@ This project is a simple clone of the Porsche website created using HTML and CSS
 
 ## Live preview
 
-use this link to preview the website
+use this link https://sai472002.github.io/Porsche_clone_website/ to preview the website
 
 ## Project Structure
 
