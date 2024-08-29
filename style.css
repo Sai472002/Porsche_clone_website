@@ -1,0 +1,356 @@
+
+@font-face {
+    font-family:newfont;
+    src: url(./PorscheNext-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: newfont;
+    font-size: 16px;
+}
+.nav{
+    font-size: 18px;
+    height:85px;
+    display: flex;
+    align-items: center;  
+}
+
+.left-nav{
+    box-sizing: border-box;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.left-nav p{
+    margin-left: 10px; 
+}
+
+.middle img{
+    height: 23px;   
+}
+
+.big-picture{
+    background-image:url(./assets/porsche-normal.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;   
+}
+
+.big-picture p {
+    line-height: 40px;
+    font-size: 52px;
+    font-weight:bolder;
+    background-color: transparent;
+    margin-left:100px;
+    color: white;   
+}
+.big-picture p:hover{
+    color:red;
+}
+ 
+.cont{
+    display: flex;
+    overflow: hidden;
+}
+.cont-img{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 25%;    
+}
+.dw{
+    margin-top: 10px;
+    width: 25%;
+    font-size: 100%;
+    gap: 5px;
+}
+.dw span{
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer{   
+    display: flex;
+    flex-direction: row;
+}
+.ft{
+    width:27%;  
+}
+.ft .bold{
+    font-size: 20px;
+}
+.ft li{
+    font-size: 16px;
+    padding: 15px;
+    list-style: none;
+    font-weight: 10;
+}
+.footer1{
+    background-color: #191F22;
+    height: fit-content;
+    width: auto;
+    box-sizing: border-box;
+}
+.ft1{
+    height:300px;
+    width:85%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #191F22;
+    font-size: 24px;
+    font-weight: 550;
+    color: white;
+}
+select{
+    background-color: #313639;
+    color: white;
+    width: 350px;
+    height:50px;
+    font-size: 15px;
+    border: 1px solid #191F22;
+    margin:10px;
+}
+.ft1 p{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight:20;
+    text-align:center;
+}
+.title{
+    margin: 20px 0px;
+    padding: 20px 5px;
+    font-weight: 500;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.model-img-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.model-img{
+    display: flex;
+    align-items: flex-end;
+    height: 450px;
+    width: auto;
+    padding: 10px;
+}
+.btn-container{
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.btn{
+    padding: 15px 21px;
+    font-weight:400 ;
+    font-size: 16px;
+}
+.build{
+    background-color: white;
+    border: none;
+}
+.build:hover{
+    background-color: rgb(204, 51, 51);
+    color: white;
+}
+.allmodel{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent !important;
+}
+.allmodel:hover{
+    border: 1px solid rgb(204, 51, 51);
+    color: rgb(204, 51, 51);
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+.horizontal{
+    margin: 0px 50px;
+}
+.find{
+    margin: auto auto 0px auto;
+    border: none;
+    background-color: #313639;
+    color: white;
+}
+.find:hover{
+    background-color: rgb(204, 51, 51);
+}
+.fa-angle-right,.fa-arrow-up-right-from-square{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.shopping-container{
+    display: flex;
+    background-color: #313639;
+}
+.shopping-img{
+    display: flex;
+    align-items: flex-end;
+    height: 350px;
+    width: 40%;
+    padding: 30px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.shopping-img > i{
+    font-size: 20px;
+    margin:0px 10px 0px 0px ;
+    color: rgb(218, 57, 57);
+}
+.shopping-img:hover{
+    color: orangered;
+}
+.compare{
+    width: 80%;
+}
+.social-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 800px;
+    width: 100%;
+}
+.gap{
+    gap: 5px;
+}
+.big{
+    height:500px;
+    width: 100%;
+}
+.small{
+    gap: 5px;
+    display: grid;
+    height: 300px !important;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 100%;
+}
+.margin{
+    margin-top: 20px;
+    float: right;
+}
+.video{
+    background-color: black;
+}
+.img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    background-image: url(./assets/model1.webp);
+}
+.two{
+    background-image: url(./assets/model2.webp);
+}
+.three{
+    background-image: url(./assets/model3.webp);
+}
+.four{
+    background-image: url(./assets/model4.webp);
+}
+.five{
+    background-image: url(./assets/model5.webp);
+}
+.six{
+    background-image: url(./assets/model6.webp);
+}
+.seven{
+    background-image: url(./assets/find1.webp);
+    background-size: contain;
+}
+.eight{
+    background-image: url(./assets/find2.webp);
+    background-size: contain;
+}
+.nine{
+    background-image: url(./assets/find3.webp);
+    background-size: contain;
+}
+.ten{
+    background-image: url(./assets/shop1.webp);
+}
+.eleven{
+    background-image: url(./assets/shop2.webp);
+}
+.twelve{
+    background-image: url(./assets/shop3.webp);
+}
+.thirteen{
+    background-image: url(./assets/shop4.webp);
+}
+.fa-solid {
+    font-size: 22px;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+.share:hover{
+    background-color: rgb(229, 17, 17);
+
+}
+.share{
+    height: 50px;
+    background-color: #313639;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.share-cont h4{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #959899;
+}
+.share-flex{
+    display:flex;
+    gap: 10px;
+    
+}
+.fa-brands{
+    font-size: 27px;
+    color: white;
+}
+.box{
+    background-color: #313639;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: #313639;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box:hover{
+    background-color: rgb(75, 75, 222);
+
+}
+.box1:hover{
+    background-color: rgb(228, 67, 67);
+}
+
